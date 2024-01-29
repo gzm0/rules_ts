@@ -8,8 +8,7 @@ ts_project(
     args = ["--listFiles"],
     declaration = True,
     resolve_json_module = True,
-    tsconfig = "//examples/resolve_json_module:tsconfig",
     deps = [
-        "//examples/resolve_json_module:ts",
+        "//examples/resolve_json_module/foo:ts",
     ],
 )

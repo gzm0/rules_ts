@@ -1,3 +1,3 @@
-import type { Data } from '../index'
+import type { Data } from '../foo'
 
 const data: Data = [{ a: 'b' }]
